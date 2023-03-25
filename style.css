@@ -16,6 +16,7 @@ body {
     border-radius: 5px;
     padding: 20px;
     margin-top: 10px;
+    width: 80%;
 }
 .whatsapp-group {
     display: inline-block;
@@ -25,6 +26,7 @@ body {
     border-radius: 5px;
     padding: 20px;
     margin-top: 10px;
+    width: 80%;
 }
 
 .facebook-icon {
@@ -53,7 +55,7 @@ body {
     color: #333;
     margin: 0 auto;
     padding: 20px;
-    max-width: 600px;
+    max-width: 90%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -81,49 +83,49 @@ body {
 /* Media queries */
 @media only screen and (max-width: 767px) {
     .whatsapp-group, .facebook-group {
-        font-size: 16px;
-        padding: 10px;
+        font-size: 26px;
+        padding: 20px;
     }
 
         .whatsapp-icon, .facebook-icon {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .whatsapp-group, .facebook-group {
-        font-size: 18px;
-        padding: 12px;
+        font-size: 28px;
+        padding: 22px;
     }
 
     .whatsapp-icon, .facebook-icon {
-        width: 22px;
-        height: 22px;
+        width: 32px;
+        height: 32px;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .whatsapp-group, .facebook-group {
-        font-size: 20px;
-        padding: 14px;
+        font-size: 30px;
+        padding: 24px;
     }
 
     .whatsapp-icon, .facebook-icon {
-        width: 24px;
-        height: 24px;
+        width: 34px;
+        height: 34px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .whatsapp-group, .facebook-group {
-        font-size: 22px;
-        padding: 16px;
+        font-size: 32px;
+        padding: 26px;
     }
 
     .whatsapp-icon, .facebook-icon {
-        width: 26px;
-        height: 26px;
+        width: 36px;
+        height: 36px;
     }
 }
 h1 {
