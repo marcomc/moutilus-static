@@ -8,6 +8,7 @@ body {
     line-height: 1.5;
     text-align: center;
 }
+
 .facebook-group {
     display: inline-block;
     background-color: #3B5998;
@@ -69,7 +70,6 @@ body {
     padding: 10px;
     margin-top: 10px;
 }
-}
 
 .whatsapp-icon {
     display: inline-block;
@@ -78,6 +78,9 @@ body {
     margin-right: 5px;
     background: url("https://www.flaticon.com/svg/static/icons/svg/733/733585.svg") no-repeat center center;
     background-size: contain;
+}
+.qr-code {
+    width: 450px;
 }
 
 /* Media queries */
