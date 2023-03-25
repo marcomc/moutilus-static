@@ -1,0 +1,82 @@
+body {
+    background-image: url("moutilus-background.png");
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+.facebook-group {
+    display: inline-block;
+    background-color: #3B5998;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.whatsapp-group {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.facebook-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+    background: url(facebook.png) no-repeat center center;
+    background-size: contain;
+}
+
+.whatsapp-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 10px;    
+    margin-right: 5px;
+    vertical-align: middle;
+    background: url(whatsapp.png) no-repeat center center;
+    background-size: contain;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.whatsapp-share {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
