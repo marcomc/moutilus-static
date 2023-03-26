@@ -83,6 +83,7 @@ body {
 
 .qr-code {
     width: 350px;
+    height: 350px;
 }
 
 /* Media queries */
